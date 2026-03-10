@@ -20,7 +20,7 @@ public class TorqueRotate : MonoBehaviour
 
         if (Keyboard.current.dKey.isPressed)
         {
-            rb.AddTorque(Vector3.right *  torque);
+            rb.AddTorque(Vector3.forward *  torque);
         }
         else
         {
